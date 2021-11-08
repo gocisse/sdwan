@@ -11,6 +11,10 @@ Need golang install
 Go mod init to get the packages used here..
 Compile 
 run the app give your vManager user name and password and u will get a menu to start making API calls.
+
+
+
+
 menu = `
 		#  ███╗   ███╗███████╗███╗   ██╗██╗   ██╗    
 		#  ████╗ ████║██╔════╝████╗  ██║██║   ██║    
