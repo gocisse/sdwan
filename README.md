@@ -2,7 +2,35 @@
 
 
 This is an sdwan API client writting in golang 
-Its use to fetch devices states ,  ipsec ,
+Its use to fetch devices states ,  ipsec and many more only for sdwan Viptela
+- This app is still under devellopement. 
+
+
+How to use it... 
+Need golang install 
+Go mod init to get the packages used here..
+Compile 
+run the app give your vManager user name and password and u will get a menu to start making API calls.
+menu = `
+		#  ███╗   ███╗███████╗███╗   ██╗██╗   ██╗    
+		#  ████╗ ████║██╔════╝████╗  ██║██║   ██║    
+		#  ██╔████╔██║█████╗  ██╔██╗ ██║██║   ██║    
+		#  ██║╚██╔╝██║██╔══╝  ██║╚██╗██║██║   ██║    
+		#  ██║ ╚═╝ ██║███████╗██║ ╚████║╚██████╔╝    
+		#  ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝ ╚═════╝  
+		==============================================
+		
+		1 - For all devices in the sdwan Fabrc
+		2 - For all Devices Inventory 
+		3 - For Control connections per system-ip
+		4 - For Feature Templates
+		5 - For ipsec outboud connections per system-ip
+		6 - For BFD sessuion history per sys-ip 
+		7 - For BFD session history Edge to Edges sys-ip required
+		8 - For BFD session history between Edges sys-ip and tloc colour required
+		9 - For BFD session tlocs sysIP required
+		0 - To quit the program 
+		`
 
 
 Building Executables for Different Architectures
